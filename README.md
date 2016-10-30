@@ -38,8 +38,8 @@ The pinout can be found at http://wiringpi.com/pins/
 Clone the git repository
 
     cd ~/
-    git clone https://github.com/philcrump/pi-sdn.git pi-sdn-git/
-    cd pi-sdn-git/
+    git clone https://github.com/davecrump/RPiDATV-SW.git RPiDATV-SW-git/
+    cd RPiDATV-SW-git/
 
 Compile and install wiringPi with static headers
 
@@ -52,12 +52,12 @@ Compile and install wiringPi with static headers
 
 Compile pi-sdn
 
-    cd ~/pi-sdn-git/
+    cd ~/RPiDATV-SW-git/
     make
     cp pi-sdn ~/pi-sdn
 
 ## Authors
 
-Copyright (c) 2015 Phil Crump <phil@philcrump.co.uk>
+Copyright (c) 2016 Phil Crump <phil@philcrump.co.uk> and Dave Crump <dave.g8gkq@gmail.com>
 
 MIT License
