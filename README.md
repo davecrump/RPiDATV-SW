@@ -6,7 +6,7 @@ Cloned from
 
 ## Usage
 
-Run the following command, or download the compiled binary from the Releases tab and copy it to the home directory.
+To use Phil's orignal code, run the following command, or download the compiled binary from the Releases tab and copy it to the home directory.  The new version will need compiling using the instuctions below.
 
     wget 'https://github.com/philcrump/pi-sdn/releases/download/v1.0/pi-sdn' -O /home/pi/pi-sdn
 
@@ -27,7 +27,7 @@ Add the following line to /etc/rc.local, before 'exit 0'.
 
 ### GPIO Number
 
-pi-sdn uses the WiringPi pin numbers (0-20).
+pi-sdn uses the WiringPi pin numbers (0-20).  This is now modified to 0-29
 
 The pinout can be found at http://wiringpi.com/pins/
 
